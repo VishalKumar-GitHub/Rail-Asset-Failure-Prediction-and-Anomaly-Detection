@@ -34,7 +34,7 @@ temperature = st.sidebar.slider("Temperature (°C)", 20.0, 100.0, 30.0)
 rolling_avg_window = st.sidebar.slider("Rolling Average Window", 1, 48, 24)
 
 # Main app
-st.title("🚆 Rail Asset Failure Prediction System")
+st.title("Rail Asset Failure Prediction System")
 st.markdown("""
 This system predicts potential rail asset failures using vibration and temperature sensor data.
 """)
@@ -91,11 +91,11 @@ if st.sidebar.button("Predict"):
             st.pyplot(fig)
             
             if failure_prob > 0.7:
-                st.error("🚨 High probability of failure - Immediate inspection recommended!")
+                st.error("High probability of failure - Immediate inspection recommended!")
             elif failure_prob > 0.5:
-                st.warning("⚠️ Moderate probability of failure - Schedule inspection")
+                st.warning("⚠Moderate probability of failure - Schedule inspection")
             else:
-                st.success("✅ Normal operation")
+                st.success(" Normal operation")
     
     with col2:
         st.subheader("Anomaly Detection")
@@ -108,9 +108,9 @@ if st.sidebar.button("Predict"):
             st.pyplot(fig)
             
             if anomaly_score < 0:
-                st.error("🚨 Anomaly detected in sensor readings!")
+                st.error("Anomaly detected in sensor readings!")
             else:
-                st.success("✅ Normal sensor behavior")
+                st.success("Normal sensor behavior")
 
 # Data visualization section
 st.header("Historical Data Simulation")

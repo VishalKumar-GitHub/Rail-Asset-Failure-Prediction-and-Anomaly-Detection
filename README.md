@@ -1,5 +1,7 @@
 # Rail-Asset-Failure-Prediction-and-Anomaly-Detection System
-  
+
+![rail](https://github.com/user-attachments/assets/262380a8-1d82-411c-b85c-6738319f6e2e)
+
 ## 1. Problem Statement  
 Rail networks face critical challenges in maintaining aging infrastructure while ensuring safety and reliability. Current maintenance practices are either:  
 - **Reactive** (fixing after failures occur), leading to service disruptions and safety risks  
